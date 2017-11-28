@@ -1,0 +1,13 @@
+f1=1;
+f2=1;
+f3=2
+k=2;
+tst=10**999
+while(1):
+    f3=f1+f2
+    f1=f2
+    f2=f3
+    k=k+1;
+    if(f3>=tst):
+        break
+print(k)
